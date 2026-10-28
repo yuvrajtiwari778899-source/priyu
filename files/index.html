@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Open This ❤️</title> 
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;          
+      box-sizing:border-box;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(
+        135deg,
+        #000000,
+        #1a1a1a,
+        #2b2b2b
+      );
+
+      font-family:sans-serif;
+      overflow:hidden;
+    }
+
+    .card{
+
+      background:white;
+
+      padding:60px;
+
+      width:500px;
+      max-width:90%;
+
+      border-radius:20px;
+
+      box-shadow:0 10px 40px rgba(0,0,0,0.4);
+
+      animation:fadeUp 1s ease;
+    }
+
+    @keyframes fadeUp{
+
+      from{
+        opacity:0;
+        transform:translateY(40px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    h1{
+      font-size:45px;
+      margin-bottom:25px;
+      line-height:1.3;
+    }
+
+    p{
+      font-size:22px;
+      line-height:1.7;
+      color:#444;
+      margin-bottom:35px;
+    }
+
+    a{
+      text-decoration:none;
+    }
+
+    button{
+
+      padding:18px 40px;
+
+      border:none;
+
+      background:black;
+      color:white;
+
+      font-size:20px;
+
+      border-radius:50px;
+
+      cursor:pointer;
+
+      transition:0.3s;
+    }
+
+    button:hover{
+
+      background:#ff4d6d;
+
+      transform:scale(1.05);
+    }
+
+    .small{
+      margin-top:30px;
+      color:#999;
+      font-size:14px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+
+    <h1>
+      Take a deep breath before opening this.
+    </h1>
+
+    <p>
+      There are some things <br>
+      I should’ve said properly a long time ago.
+    </p>
+
+    <!-- CHANGE FILE NAME HERE -->
+    <a href="letter.html">
+
+      <button>
+        ispe click kro zara ❤️
+      </button>
+
+    </a>
+
+    <div class="small">
+      made with feelings :)
+    </div>
+
+  </div>
+
+</body>
+</html>
